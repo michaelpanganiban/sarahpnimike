@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sarah & Michael</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style type="text/css">
+            .countdown-content {
+/*                font-family: crimson pro;*/
+                color: #F8EED5 !important;
+            }
+            .head-title {
+/*                font-family: angella white !important;*/
+                color: #F8EED5 !important;
+            }
+            li {
+              display: inline-block;
+              font-size: 1.5em;
+              list-style-type: none;
+              padding: 1em;
+              text-transform: uppercase;
+            }
+
+            li span {
+              display: block;
+              font-size: 4.5rem;
+            }
+
+            .nav {
+                background-color: #10400F !important;
+            }
+            .active {
+                color: #EA7CA2 !important;
+            }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="nav navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <!-- <h1 class="font-secondary text-white mb-n2">Sarah <span class="text-primary">&</span> Michael</h1> -->
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#story" class="nav-item nav-link">Story</a>
+                <a href="#gallery" class="nav-item nav-link">Gallery</a>
+            </div>
+            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                <h1 class="font-secondary text-white mb-n2">Sarah <span class="text-primary" style="color: #EA7CA2 !important;">&</span> Michael</h1>
+            </a>
+            <div class="navbar-nav mr-auto py-0">
+                <a href="#event" class="nav-item nav-link">Event</a>
+                <a href="#rsvp" class="nav-item nav-link">Primary Sponsors</a>
+                <a href="#family" class="nav-item nav-link">Entourage</a>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5" id="home">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/assets/IMG_7087.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4 head-title">Sarah & Michael</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0 head-title " style="letter-spacing: 2px;">We're getting married</h3>
+                            </div>
+                            <br>
+                            <div class="countdown-content">
+                                <ul>
+                                  <li><span id="day"></span>days</li>
+                                  <li><span id="hour"></span>Hours</li>
+                                  <li><span id="minute"></span>Minutes</li>
+                                  <li><span id="second"></span>Seconds</li>
+                                </ul>
+                            </div> 
+                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
+                                data-src="img/assets/sample.mp4" data-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/assets/IMG_7094.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4 head-title ">Sarah & Michael</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0 head-title " style="letter-spacing: 2px;">We're getting married</h3>
+                            </div>
+                            <div class="countdown-content">
+                                <ul>
+                                  <li><span id="day2"></span>days</li>
+                                  <li><span id="hour2"></span>Hours</li>
+                                  <li><span id="minute2"></span>Minutes</li>
+                                  <li><span id="second2"></span>Seconds</li>
+                                </ul>
+                            </div> 
+                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
+                                data-src="img/assets/sample.mp4" data-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px; background-color: #EA7CA2 !important; border-color: #EA7CA2 !important;">
+                    <span class="carousel-control-prev-icon mt-3"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px; background-color: #EA7CA2 !important; border-color: #EA7CA2 !important;">
+                    <span class="carousel-control-next-icon mt-3"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">About</h6>
+                <h1 class="font-secondary display-4">Groom & Bride</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
+                <div class="col-md-6 p-0 text-center text-md-right">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                        <h3 class="mb-3">The Groom</h3>
+                        <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-male text-primary pr-3"></i>Michael</h3>
+                        <div class="position-relative">
+                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/about-1.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/about-2.jpg" style="object-fit: cover;">
+                </div>
+                <div class="col-md-6 p-0 text-center text-md-left">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                        <h3 class="mb-3">The Bride</h3>
+                        <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-female text-primary pr-3"></i>Sarah</h3>
+                        <div class="position-relative">
+                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Story Start -->
+    <div class="container-fluid py-5" id="story">
+        <div class="container pt-5 pb-3">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Story</h6>
+                <h1 class="font-secondary display-4">Our Love Story</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="container timeline position-relative p-0">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3 timeline-img" src="img/assets/timeline/zambales.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">Where it all started: Zambales</h4>
+                            <p class="text-uppercase mb-2">28 April 2018</p>
+                            <p class="m-0">Having been acquainted during our high school days, after a few months of further self-discovery, we organized our first travel to Zambales. During this occasion, Mike eagerly anticipated marking his birthday during the journey, and thus, our plan came into fruition, resulting in unforgettable memories. Mike fondly recalls it as his "best birthday so far." Little did we realize that this very experience would catalyze a more profound bond between us, ultimately guiding us to the juncture we find ourselves in today.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">First Lie - Seminar</h4>
+                            <p class="text-uppercase mb-2">01 July 2018</p>
+                            <p class="m-0">"Ma, may seminar kami sa Manila sa Friday until Sunday" was the initial untruth uttered, creating space for Mike's heart, which appeared to be perpetually drawn in a northerly direction. Little did they know, it's Mike's excuse for visiting Sarah in Manila. In an instant, Mike's intrigue for seminars heightened, irrespective of the distance or expenses involved – whatever it takes.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/story-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story-3.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">Relationship Status Update: It's a confirmed "Yes."</h4>
+                            <p class="text-uppercase mb-2">12 July 2018</p>
+                            <p class="m-0">On July 12, it became our personal independence day, as we officially labeled what we've been nurturing for the past few months. It's a mutual agreement for both of us since we've both chosen to commit to this relationship. We've firmly decided that the two of us are fully embracing this partnership. It's a sealed deal, no doubt about it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">All in! Through ups and downs</h4>
+                            <p class="text-uppercase mb-2">-</p>
+                            <p class="m-0">As a couple, we encountered a variety of challenges, both individually and together. One of the significant adjustments was when Mike relocated to Manila to further his career and strengthen our relationship. Meanwhile, Sarah was introduced to Mike's closest friends and opted to live with them. Sarah seamlessly integrated with them and formed new friendships. <br>
+
+                            However, it wasn't always smooth sailing for us. As we delved deeper into our relationship and got to know each other better, we discovered that some aspects didn't align with our individual principles and values. Despite these differences, we made a steadfast commitment to prioritize "Us."<br>
+
+                            When the pandemic struck, we were all together and weathered the storm as a unit, supporting one another until we eventually made the decision to return to our respective homes.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/story-4.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">Journey as furparents</h4>
+                            <p class="text-uppercase mb-2">12 September 2020</p>
+                            <p class="m-0">We're thrilled to announce that we've become parents! Our adorable fur babies, Anga, Butter, and Sokka, have entered our lives, and with them came the responsibility of parenthood. We've been diligently feeding them, looking after their well-being, and tending to them, especially when they're under the weather (those vet bills and those 3 a.m. medication wake-ups, ugh). However, despite the challenges, we're immensely grateful and overjoyed to have them as cherished members of our family.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">Endgame: Zambales (The proposal)</h4>
+                            <p class="text-uppercase mb-2">12 July 2022</p>
+                            <p class="m-0">It's the endgame for us! We're concluding our journey as boyfriend and girlfriend, but this is where it all began. We are absolutely certain about the love we share and the future we envision. Mike's proposal has marked the beginning of a fresh chapter in our lives as we embark on a new adventure together. We invite you to join us on this significant milestone and celebrate this joyous occasion with us.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Story End -->
+
+
+    <!-- Gallery Start -->
+    <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
+        <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
+            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Gallery</h6>
+            <h1 class="font-secondary display-4 text-white">Our Photo Gallery</h1>
+            <i class="far fa-heart text-white"></i>
+        </div>
+        <div class="owl-carousel gallery-carousel">
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_1.PNG" alt="">
+                <a href="img/assets/couple/IMG_1.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_2.PNG" alt="">
+                <a href="img/assets/couple/IMG_2.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_3.PNG" alt="">
+                <a href="img/assets/couple/IMG_3.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_4.PNG" alt="">
+                <a href="img/assets/couple/IMG_4.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_5.PNG" alt="">
+                <a href="img/assets/couple/IMG_5.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_6.PNG" alt="">
+                <a href="img/assets/couple/IMG_6.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_7.PNG" alt="">
+                <a href="img/assets/couple/IMG_7.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_8.PNG" alt="">
+                <a href="img/assets/couple/IMG_8.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_9.PNG" alt="">
+                <a href="img/assets/couple/IMG_9.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_10.PNG" alt="">
+                <a href="img/assets/couple/IMG_10.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_11.PNG" alt="">
+                <a href="img/assets/couple/IMG_11.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="w-100" src="img/assets/couple/IMG_12.PNG" alt="">
+                <a href="img/assets/couple/IMG_12.PNG" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+
+    <!-- Event Start -->
+    <div class="container-fluid py-5" id="event">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Event</h6>
+                <h1 class="font-secondary display-4">Our Wedding Event</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h5 class="font-weight-normal text-muted mb-3 pb-3">Step into the magic of our celebration – We can't contain our excitement as we present to you an absolutely amazing and unforgettable space for our wedding event reception and party.</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 border-right border-primary">
+                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                        <img class="place mb-4" src="img/assets/lakeside.jpg" alt="">
+                        <h4 class="mb-3">The Reception</h4>
+                        <p class="mb-2">Sumlang Lakeside Socorro's</p>
+                        <!-- <p class="mb-0">03:30PM - 04:30PM</p> -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center text-md-left ml-md-3">
+                        <img class="place mb-4" src="img/assets/the-venue.jpg" alt="">
+                        <h4 class="mb-3">Wedding Party</h4>
+                        <p class="mb-2">Socorro's The venue</p>
+                        <!-- <p class="mb-0">6:00AM - 13:00PM</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Event End -->
+
+    <!-- Primary Sponsors Start -->
+    <div class="container-fluid py-5" id="rsvp">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h1 class="font-secondary display-4"> Primary Sponsors</h1>
+                <!-- <h1 class="font-secondary display-4">Join Our Party</h1> -->
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
+                            <div class="col-md-6 p-0 text-center text-md-right">
+                                <div class="h-100 d-flex flex-column justify-content-right bg-secondary p-5">
+                                    <h5 class="text-uppercase mb-3">Ms. Connie Ibañez</h5> 
+                                    <h5 class="text-uppercase mb-3">Ms. Josie Ibañez</h5> 
+                                    <h5 class="text-uppercase mb-3">Ms. Luningning Cuarto</h5> 
+                                    <h5 class="text-uppercase mb-3">Ms. Shirley Reyta</h5> 
+                                    <h5 class="text-uppercase mb-3">Ms. Melany Narvadez</h5> 
+                                    <h5 class="text-uppercase mb-3">Ms. Ivonnie Demayo</h5> 
+                                    <h5 class="text-uppercase mb-3">Ms. Immaculate Conlu</h5> 
+                                    <h5 class="text-uppercase mb-3">Ms. Ofelia Coner</h5> 
+                                    <h5 class="text-uppercase mb-3">Ms. Janice Armea</h5> 
+                                    <h5 class="text-uppercase mb-3">Ms. Shirley Naradulla</h5> 
+                                </div>
+                            </div>
+                            <div class="col-md-6 p-0 text-center text-md-left">
+                                <div class="h-100 d-flex flex-column justify-content-left bg-secondary p-5">
+                                    <h5 class="text-uppercase mb-3">Mr. Efren Bartolome</h5> 
+                                    <h5 class="text-uppercase mb-3">Mr. Efren Peleño</h5> 
+                                    <h5 class="text-uppercase mb-3">Mr. Marciano Cuarto</h5> 
+                                    <h5 class="text-uppercase mb-3">Mr. Edwin Panganiban</h5> 
+                                    <h5 class="text-uppercase mb-3">Mr. Renz Narvadez</h5> 
+                                    <h5 class="text-uppercase mb-3">Mr. Jose Bartolome</h5> 
+                                    <h5 class="text-uppercase mb-3">Mr. Hiro Alaban</h5> 
+                                    <h5 class="text-uppercase mb-3">Mr. Nelson Deang</h5> 
+                                    <h5 class="text-uppercase mb-3">Mr. Francis Armea</h5> 
+                                    <h5 class="text-uppercase mb-3">Mr. Raul Naradulla</h5> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Primary Sponsors End -->
+
+
+    <!-- Friends & Family Start -->
+    <div class="container-fluid py-5" id="family">
+        <div class="container pt-5 pb-3">
+            <div class="section-title position-relative text-center">
+                <!-- <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Friends & Family</h6> -->
+                <h1 class="font-secondary display-4">Groomsmen & Bridesmaid</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".first">Groomsmen</li>
+                        <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".second">Bridesmaid</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/tim.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Tim</h4>
+                            <!-- <p class="text-uppercase">Best Friend</p> -->
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/ann.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Ann</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/tin.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Tine</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/manuel.jpeg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Nelson</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/mia.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Mia</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/bruh.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Irvin</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/jew.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Jewel</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/noem.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Noemy</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/jr.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Junior</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/bok.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Bok</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/rajh.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Rajh</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/rod.jpg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Rod</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="ent" src="img/assets/entourage/mich.jpeg" alt="">
+                        <div class="container-details bg-secondary text-center p-4">
+                            <h4 class="mb-3">Michelle</h4>
+                            <!-- <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Friends & Family End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5" id="contact" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="section-title position-relative text-center">
+                <h1 class="font-secondary display-3 text-white">Thank You</h1>
+                <i class="far fa-heart text-white"></i>
+            </div>
+            <!-- <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center py-2">
+                <p class="text-white" href="#">info@example.com</p>
+                <span class="px-3">|</span>
+                <p class="text-white" href="#">+012 345 6789</p>
+            </div>
+            <p class="m-0">&copy; <a class="text-primary" href="#">Domain Name</a>. Designed by <a class="text-primary" href="https://htmlcodex.com">HTML Codex</a>
+            </p> -->
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
