@@ -553,8 +553,8 @@ mark,
 }
 
 .timeline-img {
-  width: 100% !important; 
-  max-height: 550px;
+  width: 50% !important; 
+/*  max-height: 550px;*/
 }
 
 .img-thumbnail {
